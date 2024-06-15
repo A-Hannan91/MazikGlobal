@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mazik Global Chatbot</title>
+    <style>
+      /* Add some basic styling to make the chatbot look nice */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+      h1 {
+        margin-top: 80px;
+        text-align: center;
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Mazik Global Chatbot</h1>
+    </div>
+
+    <!-- Add your JavaScript code here to handle user input and display chatbot response -->
+
+    <script type="module">
+      import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+      Chatbot.init({
+        chatflowid: "d4c8e0bb-a6ed-4435-a0cb-e39a373abc7e",
+        apiHost: "https://flowise-7ifa.onrender.com",
+      });
+    </script>
+  </body>
+</html>
